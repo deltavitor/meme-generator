@@ -4,4 +4,35 @@
 
 body {
   margin: 0;
+  font-family: Karla, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 65px;
+  padding: 0 37px 0 37px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: #FFFFFF;
+}
+
+.header--icon {
+  margin-right: 7px;
+}
+
+.header--title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 24px;
+  margin: 0 auto 0 0;
+}
+
+.header--subtitle {
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 15px;
+  text-align: right;
+  margin: 0;
 }

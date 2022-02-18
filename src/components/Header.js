@@ -5,11 +5,9 @@ import TrollFaceIcon from "../images/troll-face-icon.svg"
 function Header() {
   return (
     <header>
-      <div>
-        <img src={TrollFaceIcon} />
-        <h1>Meme Generator</h1>
-      </div>
-      <h2>React Course - Project 3</h2>
+      <img className="header--icon" src={TrollFaceIcon} />
+      <h1 className="header--title">Meme Generator</h1>
+      <h2 className="header--subtitle">React Course - Project 3</h2>
     </header>
   )
 }
