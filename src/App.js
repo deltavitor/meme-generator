@@ -1,8 +1,10 @@
 import React from "react"
 
+import Header from "./components/Header.js"
+
 function App() {
   return (
-    <h1>Meme generator</h1>
+    <Header />
   )
 }
 
